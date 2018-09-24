@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Travels from "./Travels.js"
+
 class App extends Component {
   render() {
     return (
@@ -10,9 +12,19 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Travels
+          image="https://assets.change.org/photos/1/ol/ff/FoOlffAJfEhQamJ-800x450-noPad.jpg?1490147017"
+          destination=" The Great Barrier Reef"
+          country="Australia"
+          distance="15.429 km"
+        />
+
+        <Travels
+          image="https://cdn.kanootours.com/media/wysiwyg/machupicchu-tours/machu-picchu-tours-peru.jpg"
+          destination="Machu Picchu"
+          country="Peru"
+          distance="10.095 km"
+        />
       </div>
     );
   }
