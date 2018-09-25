@@ -1,6 +1,7 @@
 //src/Travels.js
 
 import React from "react";
+import Travel from "./Travel.js"
 
 
 const travels = [
@@ -39,7 +40,9 @@ const travels = [
 
 const Travels = () => (
     <div>
-
+        {travels.map( travel => (
+            <Travel {...travel} />
+        ))}
     </div>
 )
 

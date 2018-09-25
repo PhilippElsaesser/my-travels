@@ -13,19 +13,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <Travel
-          image="https://assets.change.org/photos/1/ol/ff/FoOlffAJfEhQamJ-800x450-noPad.jpg?1490147017"
-          destination=" The Great Barrier Reef"
-          country="Australia"
-          distance="15.429 km"
-        />
 
-        <Travel
-          image="https://cdn.kanootours.com/media/wysiwyg/machupicchu-tours/machu-picchu-tours-peru.jpg"
-          destination="Machu Picchu"
-          country="Peru"
-          distance="10.095 km"
-        />
 
         <Travels />
       </div>
